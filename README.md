@@ -48,25 +48,31 @@ The application has two primary views: **Admin** and **User**. Admin users can m
 Follow the steps below to get this project up and running locally.
 ### 1. Setup backend
 The backend of this project is built with Node.js and Express.js. It uses MongoDB Atlas for the database. Follow the steps to set up the backend.
- a. Navigate to the backend directory
+ **a. Navigate to the backend directory**
 
 cd learning-management-system/backend
 
-b. Install backend dependencies
+**b. Install backend dependencies**
+
 Use npm to install the necessary dependencies:
 
 npm install
 
-c. Set up environment variables
+**c. Set up environment variables**
+
 Create a .env file in the backend directory. You can do this by creating a new file named .env and adding the following content:
 
 
 MONGO_URI=mongodb+srv://<your_mongodb_connection_string>
+
 JWT_SECRET=<your_jwt_secret>
+
 PORT=5000
 
 **d. Add Admin user with createAdmin.js file**
+
 add your admin details. then run the file by
+
 node createAdmin.js
 
 **e. Add Courses initially with seedCourses.js file by running**
@@ -78,24 +84,28 @@ node seedCourses.js
 To run the backend, use the following command:
 
 node server.js
-### 1. Setup the frontend named with my-lms
+
+### 2. Setup the frontend named with my-lms
 
 The frontend of this project is built with Next.js, TypeScript, and Tailwind CSS. Follow these steps to set up the frontend.
 
 **a. Navigate to the frontend directory**
+
 cd ../my-lms
 
 **b. Install frontend dependencies**
+
 Run the following command to install the necessary dependencies:
 
 npm install
 
 **d. Start the frontend server**
+
 To run the frontend, use the following command:
 
 npm run dev
 
-**3. Testing the applicatio**n
+### 2. Test the Application
 Once both the frontend and backend are running:
 
 Visit the frontend in your browser by navigating to http://localhost:3000 and the backend on http://localhost:5000.
