@@ -1,7 +1,7 @@
 "use client";  // Ensure the component is client-side
 
 import React, { useEffect, useState } from "react";
-import { Course } from "@/types/course";
+import { Course } from "../types/course";
 import Link from "next/link";
 import { getCourses } from "../services/api";   // Assuming you have a function to fetch courses
 

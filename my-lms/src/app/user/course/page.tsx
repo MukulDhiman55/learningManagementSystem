@@ -2,7 +2,7 @@
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import { getCourseDetails, enrollCourse } from "@/app/services/api";
-import { Course } from "@/types/course";
+import { Course } from "@/app/types/course"; 
 
 const CourseDetails = () => {
   const router = useRouter();
