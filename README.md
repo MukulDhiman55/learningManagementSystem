@@ -8,11 +8,16 @@ This project is a **Learning Management System (LMS)** built using the following
   - **Next.js**
   - **TypeScript**
   - **Tailwind CSS**
+
+ - **Name of frontend folder = my-lms**
+  
   
 - **Backend**: 
   - **Node.js**
   - **Express.js**
   - **MongoDB Atlas**
+ 
+  - - **Name of backend folder = backend**
 
 The application has two primary views: **Admin** and **User**. Admin users can manage courses, while regular users can browse and enroll in courses.
 
