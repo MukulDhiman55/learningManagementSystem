@@ -46,7 +46,7 @@ The application has two primary views: **Admin** and **User**. Admin users can m
 
 ### Installation Guide 
 Follow the steps below to get this project up and running locally.
-**1. Set up the backend**
+### 1. Setup backend
 The backend of this project is built with Node.js and Express.js. It uses MongoDB Atlas for the database. Follow the steps to set up the backend.
  a. Navigate to the backend directory
 
@@ -78,8 +78,8 @@ node seedCourses.js
 To run the backend, use the following command:
 
 node server.js
+### 1. Setup the frontend named with my-lms
 
-**2. Set up the frontend**
 The frontend of this project is built with Next.js, TypeScript, and Tailwind CSS. Follow these steps to set up the frontend.
 
 **a. Navigate to the frontend directory**
